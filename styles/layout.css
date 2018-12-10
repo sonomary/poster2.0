@@ -139,7 +139,7 @@ p{
   .logo {
     width: 768px;
   }
-  
+
   .main img{
     width: 500px;
   }
@@ -205,11 +205,31 @@ p{
 }
 
 @media (min-width: 1024px) {
+
+  .logo {
+    width: 1024px;
+  }
+
   .main img{
     width: 600px;
   }
 
   .main{
   width: 1024px;
+  }
+}
+
+@media (min-width: 1440px) {
+
+  .logo {
+    width: 1440px;
+  }
+
+  .main img{
+    width: 800px;
+  }
+
+  .main{
+  width: 1440px;
   }
 }
