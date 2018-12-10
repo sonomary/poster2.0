@@ -8,121 +8,201 @@ body {
 }
 
 .logo > img{
-  width: 500px;
+  width: 150px;
 }
 
 .logo {
-  width: 500px;
+  width: 320px;
   margin-top: 50px;
   margin-bottom: 50px;
-  margin-left: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .main img{
-  width: 1000px;
+  width: 270px;
 }
 
 .main{
-  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
   margin-top: 50px;
-  margin-left: 100px;
+  /* margin-left: 100px; */
 }
 
 #b1{
-  width: 30px;
-  height: 100px;
+  position: absolute;
+  width: 10px;
+  height: 40px;
   background: #7CBCCD;
-  margin-top: 100px;
-  margin-left: 100px;
+  margin-top: 20px;
+  margin-left: 5px;
 }
 
 h2{
-  font-size: 60px;
+  margin-left: 15px;
+  font-size: 18px;
   font-family: 'Ubuntu', sans-serif;
 }
 
 p{
-  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 13px;
   font-family: 'Ubuntu', sans-serif;
 }
 
 .header1{
-  margin-left: 150px;
-  margin-top: -90px;
+  margin-top: 25px;
   font-family: 'Ubuntu', sans-serif;
-  line-height: 40px;
-  width: 1000px;
+  width: 300px;
   text-align:left;
 }
 
 .text1{
-  margin-left: 100px;
-  margin-top: 50px;
+  /* margin-top: 10px; */
   font-family: 'Ubuntu', sans-serif;
-  line-height: 40px;
-  width: 1000px;
+  width: 300px;
   text-align:left;
 }
 
 #b2{
-  width: 30px;
-  height: 100px;
+  position: absolute;
+  width: 10px;
+  height: 40px;
   background: #7CBCCD;
-  margin-top: 100px;
-  margin-left: 100px;
+  margin-top: 200px;
+  margin-left: 5px;
 }
 
 .header2{
-  margin-left: 150px;
-  margin-top: -90px;
+  margin-top: 43px;
   font-family: 'Ubuntu', sans-serif;
-  line-height: 40px;
-  width: 1000px;
-  text-align:left;
+  width: 300px;
+  text-align: left;
 }
 
 .text2{
-  margin-left: 100px;
-  margin-top: 50px;
   font-family: 'Ubuntu', sans-serif;
-  line-height: 40px;
-  width: 1000px;
+  width: 300px;
   text-align:left;
 }
 
 .illustration > img{
-  width: 500px;
+  width: 280px;
 }
 
 .illustration {
-  width: 500px;
-  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  margin-top: 40px;
   margin-bottom: 100px;
-  margin-left: 400px;
 }
 
 #b3{
-  width: 30px;
-  height: 100px;
+  position: absolute;
+  width: 10px;
+  height: 40px;
   background: #7CBCCD;
-  margin-top: 100px;
-  margin-left: 100px;
+  margin-top: 600px;
+  margin-left: 5px;
 }
 
 .header3{
-  margin-left: 150px;
-  margin-top: -90px;
+  margin-top: -61px;
   font-family: 'Ubuntu', sans-serif;
-  line-height: 40px;
-  width: 1000px;
+  width: 300px;
   text-align:left;
 }
 
 .text3{
-  margin-left: 100px;
-  margin-top: 50px;
   font-family: 'Ubuntu', sans-serif;
-  line-height: 40px;
-  width: 1000px;
-  text-align:left;
+  width: 300px;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+
+  .logo > img{
+    width: 250px;
+  }
+
+  .logo {
+    width: 768px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main img{
+    width: 700px;
+  }
+
+  .main{
+  width: 768px;
+  }
+
+  .header1, .header2, .header3 {
+    margin-left: 20px;
+    width: 768px;
+  }
+
+  .header1 {
+    margin-top: 25px;
+  }
+
+  .header2 {
+    margin-top: 75px;
+  }
+
+  .header3 {
+    margin-top: -25px;
+  }
+
+  .text1, .text2, .text3 {
+    width: 700px;
+    margin-left: 15px;
+  }
+
+
+  h2{
+    margin-left: 15px;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  p{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  #b1, #b2, #b3 {
+    width: 20px;
+    height: 60px;
+  }
+
+  #b3 {
+    /* margin-top: 25px; */
+  }
+
+  .illustration > img{
+    width: 400px;
+  }
+
+  .illustration {
+    width: 768px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
 }
